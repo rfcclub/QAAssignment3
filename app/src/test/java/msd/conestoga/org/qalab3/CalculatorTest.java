@@ -95,14 +95,6 @@ public class CalculatorTest {
         assertEquals(-8, result);
     }
 
-    @Test(expected = ArithmeticException.class)
-    public void divide_FifteenByZero_ThrowException() throws Exception {
-        Calculator calculator = new Calculator();
-        int lhs = 15, rhs = 0;
-        int result = calculator.divide(lhs, rhs);
-        assertEquals(0, result);
-    }
-
     @Test
     public void divide_ZeroByFifteen_returnZero() {
         Calculator calculator = new Calculator();
@@ -110,5 +102,28 @@ public class CalculatorTest {
         int result = calculator.divide(lhs, rhs);
         assertEquals(0, result);
     }
-    
+
+    @Test
+    public void divide_OneByOne_ReturnOne() {
+        Calculator calculator = new Calculator();
+        int lhs = 1, rhs = 1;
+        int result = calculator.divide(lhs, rhs);
+        assertEquals(1, result);
+    }
+
+    @Test
+    public void divide_TwoByOne_ReturnTwo() {
+        Calculator calculator = new Calculator();
+        int lhs = 2, rhs = 1;
+        int result = calculator.divide(lhs, rhs);
+        assertEquals(2, result);
+    }
+
+    @Test
+    public void divide_NineByThree_ReturnThree() {
+        Calculator calculator = new Calculator();
+        int lhs = 9, rhs = 3;
+        int result = calculator.divide(lhs, rhs);
+        assertEquals(3, result);
+    }
 }
