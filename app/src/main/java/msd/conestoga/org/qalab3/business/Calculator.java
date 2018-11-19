@@ -21,8 +21,4 @@ public class Calculator {
     public int divide(int lhs, int rhs) {
         return lhs / rhs;
     }
-
-    public int square(int number) {
-        return number * number;
-    }
 }

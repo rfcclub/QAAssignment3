@@ -110,28 +110,5 @@ public class CalculatorTest {
         int result = calculator.divide(lhs, rhs);
         assertEquals(0, result);
     }
-
-//    @Test
-//    public void square_Three_ReturnNine() {
-//        int squareNumber = 3;
-//        Calculator calculator = new Calculator();
-//        int result = calculator.square(squareNumber);
-//        assertEquals(9, result);
-//    }
-//
-//    @Test
-//    public void square_Zero_ReturnZero() {
-//        int squareNumber = 0;
-//        Calculator calculator = new Calculator();
-//        int result = calculator.square(squareNumber);
-//        assertEquals(0, result);
-//    }
-//
-//    @Test
-//    public void square_MinusTwo_ReturnFour() {
-//        int squareNumber = -2;
-//        Calculator calculator = new Calculator();
-//        int result = calculator.square(squareNumber);
-//        assertEquals(4, result);
-//    }
+    
 }
