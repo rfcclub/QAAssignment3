@@ -11,7 +11,6 @@ import msd.conestoga.org.qalab3.business.Calculator;
 public class MainActivity extends AppCompatActivity {
 
     private final int ADD = 0, SUBTRACT = 1, MULTIPLY = 2, DIVIDE = 3, NOTHING = 4;
-    Button btnOne, btnTwo, btnThree,btnFour,btnFive, btnSix, btnSeven, btnEight, btnNine;
     Button btnAdd, btnSubtract, btnMultiply, btnDivide;
     TextView ribbon;
     double numberOne = Double.MIN_VALUE, numberTwo = Double.MIN_VALUE;
