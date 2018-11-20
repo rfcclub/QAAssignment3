@@ -6,19 +6,19 @@ public class Calculator {
 
     }
 
-    public int multiplication(int lhs, int rhs) {
+    public double multiplication(double lhs, double rhs) {
         return rhs * lhs;
     }
 
-    public int subtraction(int lhs, int rhs) {
+    public double subtraction(double lhs, double rhs) {
         return lhs - rhs;
     }
 
-    public int addition(int lhs, int rhs) {
+    public double addition(double lhs, double rhs) {
         return lhs + rhs;
     }
 
-    public int division(int lhs, int rhs) {
-        return lhs * rhs;
+    public double division(double lhs, double rhs) {
+        return lhs / rhs;
     }
 }
